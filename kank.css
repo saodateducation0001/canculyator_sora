@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: main_roboto;
+    user-select: none;
+}
+
+@font-face {
+    font-family: main_roboto2;
+    src: url(fronts/Roboto-Medium.ttf)
+}
+
+
+@font-face {
+    font-family: main_roboto;
+    src: url(fronts/Roboto-Light.ttf)
+}
+
+.wrapper {
+    width: 370px;
+    height: 650px;
+    background-color: black;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    overflow: auto;
+}
+
+.area {
+    /* border: 1px solid white; */
+    width: 90%;
+    height: 65px;
+    margin: auto;
+
+    margin-top: 170px;
+}
+
+.area input {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 70px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: right;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.gruop {
+    /* border: 1px solid white; */
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.gruop button {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: inline-block;
+    font-family: main_roboto2;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(60, 58, 58);
+    cursor: pointer;
+    
+
+}
+.gruop button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.gruop button:active{
+    transform: scale(0.9);
+}
+.right:hover{
+    background-color: white !important;
+}
+.one{
+    background-color: rgb(138, 147, 139) !important;
+    color: black !important;
+}
+
+.zero{
+    width: 148px !important;
+    border-radius: 31px !important;
+    text-align: left;
+    padding-left: 10px;
+}
+.right{
+    background-color: rgb(255, 137, 47) !important;
+}
